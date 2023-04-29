@@ -11,9 +11,7 @@ Fortune Cookie is a simple web application that displays a fortune message when 
 
 ## Usage
 
-1. Clone or download this repository.
-2. Open the `index.html` file in your preferred web browser.
-3. Click on the fortune cookie to reveal a fortune message.
+Go [Here](https://y1chu.github.io/Cookie/)!
 
 ## Credits
 
