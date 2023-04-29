@@ -13,9 +13,29 @@ body {
     text-align: center;
 }
 
+@keyframes wiggle {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-3px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(3px, 0, 0);
+    }
+}
+
 #fortune-cookie {
     cursor: pointer;
     width: 300px;
+    transition: opacity 1s;
+}
+
+#fortune-cookie.wiggle {
+    animation: wiggle 0.5s linear;
 }
 
 #fortune-message {
@@ -28,9 +48,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: max-content; /* Adjust this value to match the width of the container or as needed */
-}
-
-.hidden {
-    display: none;
+    max-width: max-content;
+    opacity: 0;
+    transition: opacity 1s;
 }
