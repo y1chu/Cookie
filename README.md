@@ -11,7 +11,7 @@ Fortune Cookie is a simple web application that displays a fortune message when 
 
 ## Usage
 
-Go [Here](https://y1chu.github.io/Cookie/)!
+Go [Here](https://y1chu.github.io/Fortune-Cookie/)!
 
 ## Credits
 
