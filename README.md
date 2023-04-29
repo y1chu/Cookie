@@ -16,6 +16,7 @@ Go [Here](https://y1chu.github.io/Fortune-Cookie/)!
 ## Credits
 
 - Fortune Cookie image: [pngwing.com](https://www.pngwing.com/en/free-png-iwvzn)
+- Fortune Cookie icon: [flaticon.com](https://www.flaticon.com/free-icon/fortune-cookie_1471406)
 - Quotes: [reggi/fortune-cookie](https://github.com/reggi/fortune-cookie)
 - Click sound effect: [YouTube video](https://www.youtube.com/watch?v=g2anOuyaiX8)
 
