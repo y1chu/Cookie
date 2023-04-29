@@ -26,6 +26,7 @@ fortuneCookie.addEventListener('click', () => {
     setTimeout(() => {
         fortuneCookie.style.opacity = '0';
         setTimeout(() => {
+            fortuneCookie.style.display = 'none'; // hide the image
             if (messages.length > 0) {
                 const randomIndex = Math.floor(Math.random() * messages.length);
                 fortuneMessage.textContent = messages[randomIndex];
